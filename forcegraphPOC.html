@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link rel='stylesheet' href='main.css'/>
+</head>
+
+<body>
+  <div class="container">
+      <h1>Force Directed Bubble chart proof of concept - D3</h1>
+      <p>D3's force directed charts have always been interesting to me. They implement a velocity verlet numerical integrator to create a simplified simlulation of physical forces on particles. It assumes constant changes in time of 1, and a constant mass of 1.</p>
+      <p>I thought it would be cool to test it out, and so I plotted it against Canadian youth employment data I found on <a href="https://www.statcan.gc.ca/eng/start">Statistics Canada</a></p>
+      <h1>Youth (aged 15-19) employment by type of occupation</h1>
+      <div id="toolbar">
+        <a href="#" id="all" class="button active">All NOCs</a>
+        <a href="#" id="noc" class="button">Employment by NOC</a>
+      </div>
+      <div id="vis"></div>
+
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="js\main1.js" charset="utf-8"></script>
+</body>

@@ -1,0 +1,442 @@
+CDUID,CDNAME,amount,NOC,type
+3501,"Stormont, Dundas and Glengary",80,"Business, Finance & Administration",UC
+3501,"Stormont, Dundas and Glengary",15,Natural and applied sciences,UC
+3501,"Stormont, Dundas and Glengary",25,Health occupations,UC
+3501,"Stormont, Dundas and Glengary",60,"Occupations in education, law, social",UC
+3501,"Stormont, Dundas and Glengary",70,"Occupations in art, culture, recreation",UC
+3501,"Stormont, Dundas and Glengary",1525,Sales and service occupations,UC
+3501,"Stormont, Dundas and Glengary",235,"Trades, transport, and equipment",UC
+3501,"Stormont, Dundas and Glengary",200,"Natural resources, agriculture, and related",UC
+3501,"Stormont, Dundas and Glengary",55,Manufactoring and utilities,UC
+3502,Prescott and Russell,125,"Business, Finance & Administration",UC
+3502,Prescott and Russell,20,Natural and applied sciences,UC
+3502,Prescott and Russell,40,Health occupations,UC
+3502,Prescott and Russell,70,"Occupations in education, law, social",UC
+3502,Prescott and Russell,60,"Occupations in art, culture, recreation",UC
+3502,Prescott and Russell,1620,Sales and service occupations,UC
+3502,Prescott and Russell,230,"Trades, transport, and equipment",UC
+3502,Prescott and Russell,235,"Natural resources, agriculture, and related",UC
+3502,Prescott and Russell,55,Manufactoring and utilities,UC
+3506,Ottawa,1465,"Business, Finance & Administration",CDR
+3506,Ottawa,325,Natural and applied sciences,CDR
+3506,Ottawa,155,Health occupations,CDR
+3506,Ottawa,870,"Occupations in education, law, social",CDR
+3506,Ottawa,1685,"Occupations in art, culture, recreation",CDR
+3506,Ottawa,13650,Sales and service occupations,CDR
+3506,Ottawa,795,"Trades, transport, and equipment",CDR
+3506,Ottawa,670,"Natural resources, agriculture, and related",CDR
+3506,Ottawa,135,Manufactoring and utilities,CDR
+3507,Leeds and Grenville,135,"Business, Finance & Administration",UC
+3507,Leeds and Grenville,25,Natural and applied sciences,UC
+3507,Leeds and Grenville,20,Health occupations,UC
+3507,Leeds and Grenville,50,"Occupations in education, law, social",UC
+3507,Leeds and Grenville,110,"Occupations in art, culture, recreation",UC
+3507,Leeds and Grenville,1710,Sales and service occupations,UC
+3507,Leeds and Grenville,245,"Trades, transport, and equipment",UC
+3507,Leeds and Grenville,140,"Natural resources, agriculture, and related",UC
+3507,Leeds and Grenville,40,Manufactoring and utilities,UC
+3509,Lanark,90,"Business, Finance & Administration",CTY
+3509,Lanark,0,Natural and applied sciences,CTY
+3509,Lanark,10,Health occupations,CTY
+3509,Lanark,40,"Occupations in education, law, social",CTY
+3509,Lanark,100,"Occupations in art, culture, recreation",CTY
+3509,Lanark,1135,Sales and service occupations,CTY
+3509,Lanark,135,"Trades, transport, and equipment",CTY
+3509,Lanark,70,"Natural resources, agriculture, and related",CTY
+3509,Lanark,55,Manufactoring and utilities,CTY
+3510,Frontenac,135,"Business, Finance & Administration",CTY
+3510,Frontenac,20,Natural and applied sciences,CTY
+3510,Frontenac,35,Health occupations,CTY
+3510,Frontenac,145,"Occupations in education, law, social",CTY
+3510,Frontenac,215,"Occupations in art, culture, recreation",CTY
+3510,Frontenac,2230,Sales and service occupations,CTY
+3510,Frontenac,200,"Trades, transport, and equipment",CTY
+3510,Frontenac,150,"Natural resources, agriculture, and related",CTY
+3510,Frontenac,40,Manufactoring and utilities,CTY
+3511,Lennox and Addington,40,"Business, Finance & Administration",CTY
+3511,Lennox and Addington,15,Natural and applied sciences,CTY
+3511,Lennox and Addington,15,Health occupations,CTY
+3511,Lennox and Addington,15,"Occupations in education, law, social",CTY
+3511,Lennox and Addington,55,"Occupations in art, culture, recreation",CTY
+3511,Lennox and Addington,675,Sales and service occupations,CTY
+3511,Lennox and Addington,105,"Trades, transport, and equipment",CTY
+3511,Lennox and Addington,95,"Natural resources, agriculture, and related",CTY
+3511,Lennox and Addington,10,Manufactoring and utilities,CTY
+3512,Hastings,100,"Business, Finance & Administration",CTY
+3512,Hastings,15,Natural and applied sciences,CTY
+3512,Hastings,35,Health occupations,CTY
+3512,Hastings,50,"Occupations in education, law, social",CTY
+3512,Hastings,130,"Occupations in art, culture, recreation",CTY
+3512,Hastings,2230,Sales and service occupations,CTY
+3512,Hastings,205,"Trades, transport, and equipment",CTY
+3512,Hastings,185,"Natural resources, agriculture, and related",CTY
+3512,Hastings,145,Manufactoring and utilities,CTY
+3513,Price Edward,15,"Business, Finance & Administration",CDR
+3513,Price Edward,0,Natural and applied sciences,CDR
+3513,Price Edward,0,Health occupations,CDR
+3513,Price Edward,0,"Occupations in education, law, social",CDR
+3513,Price Edward,20,"Occupations in art, culture, recreation",CDR
+3513,Price Edward,335,Sales and service occupations,CDR
+3513,Price Edward,25,"Trades, transport, and equipment",CDR
+3513,Price Edward,55,"Natural resources, agriculture, and related",CDR
+3513,Price Edward,15,Manufactoring and utilities,CDR
+3514,Northumberland,55,"Business, Finance & Administration",CTY
+3514,Northumberland,10,Natural and applied sciences,CTY
+3514,Northumberland,20,Health occupations,CTY
+3514,Northumberland,55,"Occupations in education, law, social",CTY
+3514,Northumberland,50,"Occupations in art, culture, recreation",CTY
+3514,Northumberland,1475,Sales and service occupations,CTY
+3514,Northumberland,150,"Trades, transport, and equipment",CTY
+3514,Northumberland,95,"Natural resources, agriculture, and related",CTY
+3514,Northumberland,70,Manufactoring and utilities,CTY
+3515,Peterborough,100,"Business, Finance & Administration",CTY
+3515,Peterborough,35,Natural and applied sciences,CTY
+3515,Peterborough,20,Health occupations,CTY
+3515,Peterborough,75,"Occupations in education, law, social",CTY
+3515,Peterborough,75,"Occupations in art, culture, recreation",CTY
+3515,Peterborough,2045,Sales and service occupations,CTY
+3515,Peterborough,185,"Trades, transport, and equipment",CTY
+3515,Peterborough,155,"Natural resources, agriculture, and related",CTY
+3515,Peterborough,80,Manufactoring and utilities,CTY
+3516,Kawartha Lakes,40,"Business, Finance & Administration",CDR
+3516,Kawartha Lakes,0,Natural and applied sciences,CDR
+3516,Kawartha Lakes,25,Health occupations,CDR
+3516,Kawartha Lakes,55,"Occupations in education, law, social",CDR
+3516,Kawartha Lakes,50,"Occupations in art, culture, recreation",CDR
+3516,Kawartha Lakes,1185,Sales and service occupations,CDR
+3516,Kawartha Lakes,225,"Trades, transport, and equipment",CDR
+3516,Kawartha Lakes,105,"Natural resources, agriculture, and related",CDR
+3516,Kawartha Lakes,45,Manufactoring and utilities,CDR
+3518,Durham,1005,"Business, Finance & Administration",RM
+3518,Durham,125,Natural and applied sciences,RM
+3518,Durham,110,Health occupations,RM
+3518,Durham,465,"Occupations in education, law, social",RM
+3518,Durham,950,"Occupations in art, culture, recreation",RM
+3518,Durham,9825,Sales and service occupations,RM
+3518,Durham,960,"Trades, transport, and equipment",RM
+3518,Durham,545,"Natural resources, agriculture, and related",RM
+3518,Durham,270,Manufactoring and utilities,RM
+3519,York,1890,"Business, Finance & Administration",RM
+3519,York,390,Natural and applied sciences,RM
+3519,York,140,Health occupations,RM
+3519,York,915,"Occupations in education, law, social",RM
+3519,York,2230,"Occupations in art, culture, recreation",RM
+3519,York,14355,Sales and service occupations,RM
+3519,York,1130,"Trades, transport, and equipment",RM
+3519,York,765,"Natural resources, agriculture, and related",RM
+3519,York,345,Manufactoring and utilities,RM
+3520,Toronto,2520,"Business, Finance & Administration",CDR
+3520,Toronto,465,Natural and applied sciences,CDR
+3520,Toronto,130,Health occupations,CDR
+3520,Toronto,1650,"Occupations in education, law, social",CDR
+3520,Toronto,2985,"Occupations in art, culture, recreation",CDR
+3520,Toronto,20400,Sales and service occupations,CDR
+3520,Toronto,1370,"Trades, transport, and equipment",CDR
+3520,Toronto,385,"Natural resources, agriculture, and related",CDR
+3520,Toronto,585,Manufactoring and utilities,CDR
+3521,Peel,1815,"Business, Finance & Administration",RM
+3521,Peel,365,Natural and applied sciences,RM
+3521,Peel,140,Health occupations,RM
+3521,Peel,795,"Occupations in education, law, social",RM
+3521,Peel,1760,"Occupations in art, culture, recreation",RM
+3521,Peel,17330,Sales and service occupations,RM
+3521,Peel,1675,"Trades, transport, and equipment",RM
+3521,Peel,485,"Natural resources, agriculture, and related",RM
+3521,Peel,1035,Manufactoring and utilities,RM
+3522,Dufferin,120,"Business, Finance & Administration",CTY
+3522,Dufferin,15,Natural and applied sciences,CTY
+3522,Dufferin,10,Health occupations,CTY
+3522,Dufferin,30,"Occupations in education, law, social",CTY
+3522,Dufferin,50,"Occupations in art, culture, recreation",CTY
+3522,Dufferin,1445,Sales and service occupations,CTY
+3522,Dufferin,140,"Trades, transport, and equipment",CTY
+3522,Dufferin,170,"Natural resources, agriculture, and related",CTY
+3522,Dufferin,65,Manufactoring and utilities,CTY
+3523,Wellington,340,"Business, Finance & Administration",CTY
+3523,Wellington,90,Natural and applied sciences,CTY
+3523,Wellington,45,Health occupations,CTY
+3523,Wellington,150,"Occupations in education, law, social",CTY
+3523,Wellington,265,"Occupations in art, culture, recreation",CTY
+3523,Wellington,4100,Sales and service occupations,CTY
+3523,Wellington,605,"Trades, transport, and equipment",CTY
+3523,Wellington,625,"Natural resources, agriculture, and related",CTY
+3523,Wellington,525,Manufactoring and utilities,CTY
+3524,Halton,935,"Business, Finance & Administration",RM
+3524,Halton,230,Natural and applied sciences,RM
+3524,Halton,70,Health occupations,RM
+3524,Halton,365,"Occupations in education, law, social",RM
+3524,Halton,1200,"Occupations in art, culture, recreation",RM
+3524,Halton,10490,Sales and service occupations,RM
+3524,Halton,705,"Trades, transport, and equipment",RM
+3524,Halton,510,"Natural resources, agriculture, and related",RM
+3524,Halton,330,Manufactoring and utilities,RM
+3525,Hamilton,665,"Business, Finance & Administration",CDR
+3525,Hamilton,140,Natural and applied sciences,CDR
+3525,Hamilton,80,Health occupations,CDR
+3525,Hamilton,260,"Occupations in education, law, social",CDR
+3525,Hamilton,510,"Occupations in art, culture, recreation",CDR
+3525,Hamilton,8380,Sales and service occupations,CDR
+3525,Hamilton,740,"Trades, transport, and equipment",CDR
+3525,Hamilton,540,"Natural resources, agriculture, and related",CDR
+3525,Hamilton,345,Manufactoring and utilities,CDR
+3526,Niagra,460,"Business, Finance & Administration",RM
+3526,Niagra,80,Natural and applied sciences,RM
+3526,Niagra,75,Health occupations,RM
+3526,Niagra,205,"Occupations in education, law, social",RM
+3526,Niagra,540,"Occupations in art, culture, recreation",RM
+3526,Niagra,8545,Sales and service occupations,RM
+3526,Niagra,545,"Trades, transport, and equipment",RM
+3526,Niagra,810,"Natural resources, agriculture, and related",RM
+3526,Niagra,220,Manufactoring and utilities,RM
+3528,Haldimand-Norfolk,185,"Business, Finance & Administration",CDR
+3528,Haldimand-Norfolk,20,Natural and applied sciences,CDR
+3528,Haldimand-Norfolk,20,Health occupations,CDR
+3528,Haldimand-Norfolk,45,"Occupations in education, law, social",CDR
+3528,Haldimand-Norfolk,70,"Occupations in art, culture, recreation",CDR
+3528,Haldimand-Norfolk,2075,Sales and service occupations,CDR
+3528,Haldimand-Norfolk,270,"Trades, transport, and equipment",CDR
+3528,Haldimand-Norfolk,460,"Natural resources, agriculture, and related",CDR
+3528,Haldimand-Norfolk,160,Manufactoring and utilities,CDR
+3529,Brant,150,"Business, Finance & Administration",CDR
+3529,Brant,25,Natural and applied sciences,CDR
+3529,Brant,10,Health occupations,CDR
+3529,Brant,70,"Occupations in education, law, social",CDR
+3529,Brant,150,"Occupations in art, culture, recreation",CDR
+3529,Brant,2440,Sales and service occupations,CDR
+3529,Brant,245,"Trades, transport, and equipment",CDR
+3529,Brant,190,"Natural resources, agriculture, and related",CDR
+3529,Brant,185,Manufactoring and utilities,CDR
+3530,Waterloo,725,"Business, Finance & Administration",RM
+3530,Waterloo,145,Natural and applied sciences,RM
+3530,Waterloo,115,Health occupations,RM
+3530,Waterloo,335,"Occupations in education, law, social",RM
+3530,Waterloo,810,"Occupations in art, culture, recreation",RM
+3530,Waterloo,9550,Sales and service occupations,RM
+3530,Waterloo,990,"Trades, transport, and equipment",RM
+3530,Waterloo,750,"Natural resources, agriculture, and related",RM
+3530,Waterloo,690,Manufactoring and utilities,RM
+3531,Perth,130,"Business, Finance & Administration",CTY
+3531,Perth,35,Natural and applied sciences,CTY
+3531,Perth,30,Health occupations,CTY
+3531,Perth,55,"Occupations in education, law, social",CTY
+3531,Perth,70,"Occupations in art, culture, recreation",CTY
+3531,Perth,1625,Sales and service occupations,CTY
+3531,Perth,355,"Trades, transport, and equipment",CTY
+3531,Perth,440,"Natural resources, agriculture, and related",CTY
+3531,Perth,245,Manufactoring and utilities,CTY
+3532,Oxford,120,"Business, Finance & Administration",CTY
+3532,Oxford,15,Natural and applied sciences,CTY
+3532,Oxford,45,Health occupations,CTY
+3532,Oxford,70,"Occupations in education, law, social",CTY
+3532,Oxford,170,"Occupations in art, culture, recreation",CTY
+3532,Oxford,2270,Sales and service occupations,CTY
+3532,Oxford,275,"Trades, transport, and equipment",CTY
+3532,Oxford,430,"Natural resources, agriculture, and related",CTY
+3532,Oxford,265,Manufactoring and utilities,CTY
+3534,Elgin,85,"Business, Finance & Administration",CTY
+3534,Elgin,10,Natural and applied sciences,CTY
+3534,Elgin,25,Health occupations,CTY
+3534,Elgin,80,"Occupations in education, law, social",CTY
+3534,Elgin,80,"Occupations in art, culture, recreation",CTY
+3534,Elgin,1460,Sales and service occupations,CTY
+3534,Elgin,265,"Trades, transport, and equipment",CTY
+3534,Elgin,345,"Natural resources, agriculture, and related",CTY
+3534,Elgin,175,Manufactoring and utilities,CTY
+3536,Chatham-Kent,75,"Business, Finance & Administration",CDR
+3536,Chatham-Kent,65,Natural and applied sciences,CDR
+3536,Chatham-Kent,10,Health occupations,CDR
+3536,Chatham-Kent,80,"Occupations in education, law, social",CDR
+3536,Chatham-Kent,95,"Occupations in art, culture, recreation",CDR
+3536,Chatham-Kent,1670,Sales and service occupations,CDR
+3536,Chatham-Kent,175,"Trades, transport, and equipment",CDR
+3536,Chatham-Kent,310,"Natural resources, agriculture, and related",CDR
+3536,Chatham-Kent,145,Manufactoring and utilities,CDR
+3537,Essex,425,"Business, Finance & Administration",CTY
+3537,Essex,120,Natural and applied sciences,CTY
+3537,Essex,75,Health occupations,CTY
+3537,Essex,230,"Occupations in education, law, social",CTY
+3537,Essex,390,"Occupations in art, culture, recreation",CTY
+3537,Essex,6185,Sales and service occupations,CTY
+3537,Essex,630,"Trades, transport, and equipment",CTY
+3537,Essex,495,"Natural resources, agriculture, and related",CTY
+3537,Essex,710,Manufactoring and utilities,CTY
+3538,Lambton,145,"Business, Finance & Administration",CTY
+3538,Lambton,30,Natural and applied sciences,CTY
+3538,Lambton,20,Health occupations,CTY
+3538,Lambton,55,"Occupations in education, law, social",CTY
+3538,Lambton,115,"Occupations in art, culture, recreation",CTY
+3538,Lambton,1955,Sales and service occupations,CTY
+3538,Lambton,245,"Trades, transport, and equipment",CTY
+3538,Lambton,270,"Natural resources, agriculture, and related",CTY
+3538,Lambton,45,Manufactoring and utilities,CTY
+3539,Middlesex,470,"Business, Finance & Administration",CTY
+3539,Middlesex,125,Natural and applied sciences,CTY
+3539,Middlesex,65,Health occupations,CTY
+3539,Middlesex,325,"Occupations in education, law, social",CTY
+3539,Middlesex,550,"Occupations in art, culture, recreation",CTY
+3539,Middlesex,7075,Sales and service occupations,CTY
+3539,Middlesex,635,"Trades, transport, and equipment",CTY
+3539,Middlesex,655,"Natural resources, agriculture, and related",CTY
+3539,Middlesex,300,Manufactoring and utilities,CTY
+3540,Huron,70,"Business, Finance & Administration",CTY
+3540,Huron,15,Natural and applied sciences,CTY
+3540,Huron,20,Health occupations,CTY
+3540,Huron,30,"Occupations in education, law, social",CTY
+3540,Huron,30,"Occupations in art, culture, recreation",CTY
+3540,Huron,1200,Sales and service occupations,CTY
+3540,Huron,195,"Trades, transport, and equipment",CTY
+3540,Huron,515,"Natural resources, agriculture, and related",CTY
+3540,Huron,115,Manufactoring and utilities,CTY
+3541,Bruce,80,"Business, Finance & Administration",CTY
+3541,Bruce,20,Natural and applied sciences,CTY
+3541,Bruce,35,Health occupations,CTY
+3541,Bruce,25,"Occupations in education, law, social",CTY
+3541,Bruce,55,"Occupations in art, culture, recreation",CTY
+3541,Bruce,1275,Sales and service occupations,CTY
+3541,Bruce,175,"Trades, transport, and equipment",CTY
+3541,Bruce,275,"Natural resources, agriculture, and related",CTY
+3541,Bruce,35,Manufactoring and utilities,CTY
+3542,Grey,75,"Business, Finance & Administration",CTY
+3542,Grey,20,Natural and applied sciences,CTY
+3542,Grey,40,Health occupations,CTY
+3542,Grey,45,"Occupations in education, law, social",CTY
+3542,Grey,100,"Occupations in art, culture, recreation",CTY
+3542,Grey,1455,Sales and service occupations,CTY
+3542,Grey,250,"Trades, transport, and equipment",CTY
+3542,Grey,280,"Natural resources, agriculture, and related",CTY
+3542,Grey,110,Manufactoring and utilities,CTY
+3543,Simcoe,540,"Business, Finance & Administration",CTY
+3543,Simcoe,105,Natural and applied sciences,CTY
+3543,Simcoe,85,Health occupations,CTY
+3543,Simcoe,260,"Occupations in education, law, social",CTY
+3543,Simcoe,520,"Occupations in art, culture, recreation",CTY
+3543,Simcoe,8705,Sales and service occupations,CTY
+3543,Simcoe,985,"Trades, transport, and equipment",CTY
+3543,Simcoe,525,"Natural resources, agriculture, and related",CTY
+3543,Simcoe,580,Manufactoring and utilities,CTY
+3544,Muskoka,30,"Business, Finance & Administration",DM
+3544,Muskoka,15,Natural and applied sciences,DM
+3544,Muskoka,10,Health occupations,DM
+3544,Muskoka,20,"Occupations in education, law, social",DM
+3544,Muskoka,45,"Occupations in art, culture, recreation",DM
+3544,Muskoka,1090,Sales and service occupations,DM
+3544,Muskoka,140,"Trades, transport, and equipment",DM
+3544,Muskoka,50,"Natural resources, agriculture, and related",DM
+3544,Muskoka,20,Manufactoring and utilities,DM
+3546,Haliburton,10,"Business, Finance & Administration",CTY
+3546,Haliburton,0,Natural and applied sciences,CTY
+3546,Haliburton,10,Health occupations,CTY
+3546,Haliburton,15,"Occupations in education, law, social",CTY
+3546,Haliburton,0,"Occupations in art, culture, recreation",CTY
+3546,Haliburton,210,Sales and service occupations,CTY
+3546,Haliburton,20,"Trades, transport, and equipment",CTY
+3546,Haliburton,10,"Natural resources, agriculture, and related",CTY
+3546,Haliburton,10,Manufactoring and utilities,CTY
+3547,Renfrew,90,"Business, Finance & Administration",CTY
+3547,Renfrew,15,Natural and applied sciences,CTY
+3547,Renfrew,15,Health occupations,CTY
+3547,Renfrew,65,"Occupations in education, law, social",CTY
+3547,Renfrew,90,"Occupations in art, culture, recreation",CTY
+3547,Renfrew,1735,Sales and service occupations,CTY
+3547,Renfrew,200,"Trades, transport, and equipment",CTY
+3547,Renfrew,145,"Natural resources, agriculture, and related",CTY
+3547,Renfrew,45,Manufactoring and utilities,CTY
+3548,Nipissing,70,"Business, Finance & Administration",DIS
+3548,Nipissing,0,Natural and applied sciences,DIS
+3548,Nipissing,20,Health occupations,DIS
+3548,Nipissing,50,"Occupations in education, law, social",DIS
+3548,Nipissing,80,"Occupations in art, culture, recreation",DIS
+3548,Nipissing,1360,Sales and service occupations,DIS
+3548,Nipissing,85,"Trades, transport, and equipment",DIS
+3548,Nipissing,80,"Natural resources, agriculture, and related",DIS
+3548,Nipissing,30,Manufactoring and utilities,DIS
+3549,Parry Sound,20,"Business, Finance & Administration",DIS
+3549,Parry Sound,10,Natural and applied sciences,DIS
+3549,Parry Sound,0,Health occupations,DIS
+3549,Parry Sound,20,"Occupations in education, law, social",DIS
+3549,Parry Sound,35,"Occupations in art, culture, recreation",DIS
+3549,Parry Sound,500,Sales and service occupations,DIS
+3549,Parry Sound,80,"Trades, transport, and equipment",DIS
+3549,Parry Sound,20,"Natural resources, agriculture, and related",DIS
+3549,Parry Sound,15,Manufactoring and utilities,DIS
+3551,Manitoulin,10,"Business, Finance & Administration",DIS
+3551,Manitoulin,0,Natural and applied sciences,DIS
+3551,Manitoulin,0,Health occupations,DIS
+3551,Manitoulin,10,"Occupations in education, law, social",DIS
+3551,Manitoulin,10,"Occupations in art, culture, recreation",DIS
+3551,Manitoulin,130,Sales and service occupations,DIS
+3551,Manitoulin,35,"Trades, transport, and equipment",DIS
+3551,Manitoulin,0,"Natural resources, agriculture, and related",DIS
+3551,Manitoulin,0,Manufactoring and utilities,DIS
+3552,Sudbury,25,"Business, Finance & Administration",DIS
+3552,Sudbury,0,Natural and applied sciences,DIS
+3552,Sudbury,0,Health occupations,DIS
+3552,Sudbury,15,"Occupations in education, law, social",DIS
+3552,Sudbury,0,"Occupations in art, culture, recreation",DIS
+3552,Sudbury,305,Sales and service occupations,DIS
+3552,Sudbury,45,"Trades, transport, and equipment",DIS
+3552,Sudbury,35,"Natural resources, agriculture, and related",DIS
+3552,Sudbury,0,Manufactoring and utilities,DIS
+3553,Greater Sudbury,190,"Business, Finance & Administration",CDR
+3553,Greater Sudbury,25,Natural and applied sciences,CDR
+3553,Greater Sudbury,75,Health occupations,CDR
+3553,Greater Sudbury,95,"Occupations in education, law, social",CDR
+3553,Greater Sudbury,205,"Occupations in art, culture, recreation",CDR
+3553,Greater Sudbury,2915,Sales and service occupations,CDR
+3553,Greater Sudbury,270,"Trades, transport, and equipment",CDR
+3553,Greater Sudbury,90,"Natural resources, agriculture, and related",CDR
+3553,Greater Sudbury,30,Manufactoring and utilities,CDR
+3554,Timiskaming,50,"Business, Finance & Administration",DIS
+3554,Timiskaming,10,Natural and applied sciences,DIS
+3554,Timiskaming,0,Health occupations,DIS
+3554,Timiskaming,20,"Occupations in education, law, social",DIS
+3554,Timiskaming,35,"Occupations in art, culture, recreation",DIS
+3554,Timiskaming,460,Sales and service occupations,DIS
+3554,Timiskaming,65,"Trades, transport, and equipment",DIS
+3554,Timiskaming,125,"Natural resources, agriculture, and related",DIS
+3554,Timiskaming,10,Manufactoring and utilities,DIS
+3556,Cochrane,155,"Business, Finance & Administration",DIS
+3556,Cochrane,30,Natural and applied sciences,DIS
+3556,Cochrane,25,Health occupations,DIS
+3556,Cochrane,45,"Occupations in education, law, social",DIS
+3556,Cochrane,75,"Occupations in art, culture, recreation",DIS
+3556,Cochrane,1595,Sales and service occupations,DIS
+3556,Cochrane,200,"Trades, transport, and equipment",DIS
+3556,Cochrane,105,"Natural resources, agriculture, and related",DIS
+3556,Cochrane,60,Manufactoring and utilities,DIS
+3557,Algoma,90,"Business, Finance & Administration",DIS
+3557,Algoma,10,Natural and applied sciences,DIS
+3557,Algoma,35,Health occupations,DIS
+3557,Algoma,50,"Occupations in education, law, social",DIS
+3557,Algoma,70,"Occupations in art, culture, recreation",DIS
+3557,Algoma,1660,Sales and service occupations,DIS
+3557,Algoma,90,"Trades, transport, and equipment",DIS
+3557,Algoma,90,"Natural resources, agriculture, and related",DIS
+3557,Algoma,20,Manufactoring and utilities,DIS
+3558,Thunder Bay,140,"Business, Finance & Administration",DIS
+3558,Thunder Bay,30,Natural and applied sciences,DIS
+3558,Thunder Bay,20,Health occupations,DIS
+3558,Thunder Bay,120,"Occupations in education, law, social",DIS
+3558,Thunder Bay,145,"Occupations in art, culture, recreation",DIS
+3558,Thunder Bay,2670,Sales and service occupations,DIS
+3558,Thunder Bay,200,"Trades, transport, and equipment",DIS
+3558,Thunder Bay,120,"Natural resources, agriculture, and related",DIS
+3558,Thunder Bay,45,Manufactoring and utilities,DIS
+3559,Rainy River,35,"Business, Finance & Administration",DIS
+3559,Rainy River,10,Natural and applied sciences,DIS
+3559,Rainy River,10,Health occupations,DIS
+3559,Rainy River,10,"Occupations in education, law, social",DIS
+3559,Rainy River,25,"Occupations in art, culture, recreation",DIS
+3559,Rainy River,345,Sales and service occupations,DIS
+3559,Rainy River,35,"Trades, transport, and equipment",DIS
+3559,Rainy River,25,"Natural resources, agriculture, and related",DIS
+3559,Rainy River,15,Manufactoring and utilities,DIS
+3560,Kenora,85,"Business, Finance & Administration",DIS
+3560,Kenora,10,Natural and applied sciences,DIS
+3560,Kenora,20,Health occupations,DIS
+3560,Kenora,45,"Occupations in education, law, social",DIS
+3560,Kenora,40,"Occupations in art, culture, recreation",DIS
+3560,Kenora,985,Sales and service occupations,DIS
+3560,Kenora,105,"Trades, transport, and equipment",DIS
+3560,Kenora,95,"Natural resources, agriculture, and related",DIS
+3560,Kenora,40,Manufactoring and utilities,DIS

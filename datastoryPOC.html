@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main2.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="heading" id="mainHeader">
+			<div>
+				<div class="title"> Data Story Title Placed Here</div>
+        <p>This page may not seem like much, but it is the skeleton of the visual data stories I created and displayed on the web during my co-op term at MAESD. The real magic occurs with the <strong>scroller.js</strong> library we built, which triggers animations for the data visualization on the right side of the screen, by their position on the page.</p>
+        <p>The unappealing red lines throughout the page are great for <strong>debugging</strong>. If you're interested in building scroll-based data visualization animations, this is a wonderful outline to begin with. See source code <a href="https://github.com/smokbel/datastoryPOC">here.</a></p>
+      </div>
+		</div>
+		<div class="section">
+			<div id="barText" class="text">
+				<p style="padding: 2em 0">This will describe the first piece of data!!!</p>
+				<p style="margin-top: 400px; padding: 2em 0">This is the animation</p>
+				<p style="margin-top: 400px; padding: 2em 0">This is the text at the bottom of the section</p>
+			</div>
+			<div id="barChart" class="chart"></div>
+		</div>
+    <div class="section">
+			<div id="pieText" class="text" >
+        <p style="padding: 2em 0">This chart has 50 rows of data</p>
+				<p style="margin-top: 400px; padding: 2em 0">Here is the animation that sorts the rows</p>
+			</div>
+      <div id="pieChart" class="chart"></div>
+    </div>
+	</div>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="js\makeSomeSquares.js" charset="utf-8"></script>
+	<script src="js\layout.js" charset="utf-8"></script>
+	<script src="js\scroll.js" charset="utf-8"></script>
+	<script src="js\app.js" charset="utf-8"></script>
+</body>

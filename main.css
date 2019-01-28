@@ -1,0 +1,64 @@
+html {
+  font-family: 'Lora', serif;
+}
+
+a, a:visited, a:active {
+  color: #444;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.button {
+  min-width: 130px;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Lora', serif;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active {
+  background-color: #73A9A6;
+  color: #000;
+}
+
+
+#vis {
+  width: 940px;
+  height: 950px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#toolbar {
+  margin-top: 10px;
+  left:35%;
+}
+
+.noc {
+  font-size: 10px;
+  fill: #000;
+  cursor: default;
+}
+
+.tooltip {
+	position: absolute;
+	top: 400px;
+	left: 400px;
+	/* border-radius: 5px; */
+  border: 1px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 5px;
+	width: 150px;
+	font-size: 10px;
+	z-index: 10;
+}
+
+.activetool {stroke: white;}

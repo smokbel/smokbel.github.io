@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 4rem;
+}
+.subtitle {
+  font-size: 2.5rem;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.section {
+  position: relative;
+  display:flex;
+}
+
+.text {
+  position:relative;
+  left:0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.chart {
+  display: flex;
+  width: 50%;
+  left: 50%;
+  position:absolute;
+  top:0;
+  background-color: white;
+  z-index:999;
+}
+
+p {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.is-bottom{
+  top: auto;
+  bottom: 0;
+}
+
+.fixedChart {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
