@@ -1,2 +1,522 @@
-<meta http-equiv="refresh" content="0; url=https://halved-relish-265.notion.site/Sajeda-s-Website-16688d94cb0a80f4b59ed1704619061b">
-<title>Redirecting...</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sajeda Mokbel - Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* ----- Base styles ----- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f7f7f7;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .about-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .about-gif img {
+      width: 100%;
+      border-radius: 0.75rem;
+      border: 1px solid #d1d5db;
+      object-fit: cover;
+    }
+
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    /* ----- Layout ----- */
+    header {
+      background: #FFE5F5;
+      color: #f9fafb;
+      padding: 1rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a {
+      opacity: 0.9;
+    }
+
+    .nav-links a:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    /* Mobile nav */
+    .nav-toggle {
+      display: none;
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+
+    /* ----- Hero ----- */
+    .hero {
+      padding: 3rem 1.5rem 2rem;
+      background: #FFE5F5;
+      color: #4c4c4c;
+    }
+
+    .hero-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1.2fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 4vw, 3rem);
+      margin-bottom: 0.75rem;
+    }
+
+    .hero h2 {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #4c4c4c;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero p {
+      font-size: 0.98rem;
+      color: #4c4c4c;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.1rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: #ff6e92;
+      color: #f9fafb;
+      border-color: #750530;
+    }
+
+    .btn-primary:hover {
+      background: #ff96ca;
+      border-color: #ffffff;
+    }
+
+    .btn-outline {
+      background: #ff6e92;
+      color: #f9fafb;
+      border-color: #4b5563;
+    }
+
+    .btn-outline:hover {
+      background: #ff96ca;
+      border-color: #ffffff;
+    }
+
+    .hero-photo {
+      justify-self: center;
+    }
+
+    .hero-photo-square {
+      width: 220px;
+      height: 300px;
+      border-radius: 0.75rem;   /* soft rounded corners */
+      overflow: hidden;
+      background: #1f2937;
+      border: 4px solid #f690af;  /* optional accent frame */
+    }
+
+    .hero-photo-square img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    /* ----- Sections ----- */
+    section {
+      padding: 2.5rem 0;
+      background: #f7f7f7;
+    }
+
+    section:nth-of-type(even) {
+      background: #ffffff;
+    }
+
+    section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-intro {
+      max-width: 650px;
+      font-size: 0.96rem;
+      color: #4b5563;
+      margin-bottom: 1.5rem;
+    }
+
+    /* About */
+    .about-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+    }
+
+    .about-list li {
+      padding: 0.8rem 1rem;
+      background: #e5e7eb;
+      border-radius: 0.75rem;
+      font-size: 0.92rem;
+    }
+
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: #f9fafb;
+      border-radius: 1rem;
+      padding: 1.25rem;
+      border: 1px solid #e5e7eb;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .project-card h4 {
+      font-size: 1.05rem;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+
+    .project-tags {
+      margin-top: 0.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+    }
+
+    .tag {
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      background: #e5e7eb;
+    }
+
+    /* Contact */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .contact-list a {
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid #d1d5db;
+      background: #f9fafb;
+    }
+
+    .contact-list a:hover {
+      background: #e5e7eb;
+    }
+
+    footer {
+      padding: 1.5rem 1.5rem 2rem;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #6b7280;
+    }
+
+    /* ----- Responsive ----- */
+    @media (max-width: 720px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero-buttons {
+        justify-content: center;
+      }
+
+      .hero-photo {
+        order: -1;
+      }
+
+      .hero-photo-inner {
+        width: 150px;
+        height: 150px;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        right: 1.5rem;
+        top: 3.4rem;
+        flex-direction: column;
+        background: #111827;
+        padding: 0.75rem 1rem;
+        border-radius: 0.75rem;
+        border: 1px solid #374151;
+      }
+
+      .nav-links.show {
+        display: flex;
+      }
+
+      .nav-toggle {
+        display: block;
+      }
+      .project-image {
+        width: 100%;
+        height: 160px;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        background: #e5e7eb;
+        margin-bottom: 0.75rem;
+        border: 1px solid #d1d5db;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Sajeda Mokbel</div>
+        <div class="nav-toggle" id="navToggle">☰</div>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>Hi, I'm Sajeda</h1>
+        <h2>PhD Student · AI for Computational Science</h2>
+        <p>
+          I’m a PhD student at the University of Washington, working with professor Steve Brunton. My research is focused on AI for computational fluid dynamics prediction and control.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Research</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+      
+      <div class="hero-photo">
+        <div class="hero-photo-square">
+          <img src="your-photo.jpg" alt="Your Photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h3>About Me</h3>
+      <p class="section-intro">
+        I am interested in leveraging advanced data-driven methods to improve the engineering design process. 
+        Specifically, I have been exploring the use of machine learning methods and reinforcement learning for predicting and controlling complex flow environments, such as extreme event turbulence. 
+        I am also involved in the development of differentiable flow solvers to enable gradient-based optimization for tasks such as shape optimization or flow control.
+         I am also passionate about developing open-source software to further drive data-driven discovery of dynamics.
+      </p>
+
+      <!-- <ul class="about-list">
+        <li>🧠 Interests: web development, design, and learning new tools.</li>
+        <li>💼 Currently: your job / school / projects.</li>
+        <li>🎯 Goals: what you want to work on next.</li>
+      </ul> -->
+
+      <!-- <div class="about-gif">
+        <img src="your-gif.gif" alt="About me animation">
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h3>Research Projects</h3>
+      <p class="section-intro">
+      </p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="outputnotcontrolledchannel.gif" alt="Project preview">
+          </div>
+        
+          <h4>Differentiable simulation for dynamics prediction and control</h4>
+          <p>
+            Sajeda Mokbel*, Christian Lagemann, Esther Lagemann, Steven L. Brunton. Opensource package + paper coming soon. 
+          </p>
+        
+          <div class="project-tags">
+            <span class="tag">JAX</span>
+            <span class="tag">Reinforcement Learning</span>
+            <span class="tag">Control</span>
+            <span class="tag">3D</span>
+          </div>
+        </article>
+        
+          <a href="https://github.com/dynamicslab/hydrogym" class="project-link" target="_blank">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="animslides.gif" alt="Project preview">
+            </div>
+            <h4>HydroGym: Reinforcement Learning framework for Fluid Dynamics</h4>
+            <p>
+              Christian Lagemann, Ludger Paehler, Jared Callaham, Sajeda Mokbel*, Samuel Ahnert, Kai Lagemann, Esther Lagemann, Nikolaus Adams, Steven Brunton. PMLR (2025).
+            </p>
+            <div class="project-tags">
+              <span class="tag">Pytorch</span>
+              <span class="tag">OpenAI Gym </span>
+              <span class="tag">Firedrake </span>
+              <span class="tag">JAX </span>
+            </div>
+          </article>
+        </a>
+        
+        <a href="https://github.com/smokbel/Controlling-Kolmogorov-Flow" class="project-link" target="_blank">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="websitediss.gif" alt="Project preview">
+            </div>
+          
+            <h4>Enhanced gradient-based control with differentiable physics</h4>
+            <p>
+              Sajeda Mokbel*, Christian Lagemann, Esther Lagemann, Steven L. Brunton. Controlling chaotic energy events in fluids with reinforcement learning (2025).
+            </p>
+          
+            <div class="project-tags">
+              <span class="tag">JAX</span>
+              <span class="tag">Reinforcement Learning</span>
+              <span class="tag">Control</span>
+            </div>
+          </article>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h3>Contact</h3>
+      <p class="section-intro">
+        Want to say hi or work together? Here’s where you can find me:
+      </p>
+
+      <ul class="contact-list">
+        <li><a href="mailto:sajedam@uw.edu">Email</a></li>
+        <li><a href="https://github.com/smokbel" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sajeda-mokbel/" target="_blank">LinkedIn</a></li>
+        <!-- Add more links if you want -->
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Your Name · Built with HTML &amp; CSS
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+
+    // Set current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
